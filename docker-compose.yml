@@ -9,7 +9,6 @@ services:
       - "./run-jikan.sh:/var/www/html/run-jikan.sh"
     ports:
       - "9000:80"
-      - "9001:443"
     networks:
       - default
     restart: always
